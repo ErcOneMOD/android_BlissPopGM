@@ -8,6 +8,11 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+           
+   <remote name="ErcOneMOD"
+           fetch="https://github.com/ErcOneMOD/"
+           sync-c="true"
+           sync-j="8" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
