@@ -523,10 +523,10 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
   
   <!-- BlissPopGM Repos -->
-  <project path="android" name="android" remote="gm" revision="lp5.0" />
+  <project path="android" name="ErcOneMOD/android_BlissPopGM" revision="lp5.0" />
   <project path="art" name="art" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="bionic" name="bionic" groups="pdk" remote="gm" revision="lp5.0" />
-  <project path="build" name="build" remote="gm" revision="lp5.0" >
+  <project path="build" name="ErcOneMOD/build" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="gm" revision="lp5.0" />
