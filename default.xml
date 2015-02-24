@@ -567,20 +567,20 @@
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
   
   <!-- CUSTOM ROM TOOLCHAINS -->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="BlissPopGM/arm-linux-androideabi-4.8" remote="github" revision="lp5.0" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="BlissPopGM/arm-linux-androideabi-4.9" remote="github" revision="lp5.0" /-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Team-Validus/arm-linux-androideabi-4.8" remote="github" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="github" revision="lp" />
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="VanirAOSP/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="github" revision="L5" /-->
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="VanirAOSP/prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="github" revision="L5" /-->
   
   <!-- CUSTOM KERNEL TOOLCHAINS -->
   <!--project path="prebuilts/gcc/linux-x86/arm/linaro" name="VanirAOSP/linaro_toolchains_2015" remote="github" revision="L5" /-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="BlissPopGM/LINARO-OTTER" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="BlissPopGM/linaro-arm-eabi-4.8" remote="github" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="BlissPopGM/linaro-arm-eabi-4.9" remote="github" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="BlissPopGM/linaro-arm-eabi-4.10" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="BlissPopGM/arm-eabi-4.7" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="BlissPopGM/arm-eabi-4.8" remote="github" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="BlissPopGM/arm-eabi-4.9" remote="github" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="BlissPopGM/arm-eabi-4.10" remote="github" revision="master" />  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="Team-Validus/LINARO-OTTER" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="Team-Validus/linaro-arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="Team-Validus/linaro-arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="Team-Validus/linaro-arm-eabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="Team-Validus/arm-eabi-4.10" remote="github" revision="master" />
   
 </manifest>
