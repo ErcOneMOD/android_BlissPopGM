@@ -522,7 +522,7 @@
   <!--<project path="packages/apps/AudioFX" name="ErcOneMOD/android_packages_apps_AudioFX" revision="lp5.0" />-->
   <!--project path="packages/apps/BlissPapers" name="ErcOneMOD/android_packages_apps_BlissPapers" revision="lp5.0" /-->
   <project path="packages/apps/Bluetooth" name="ErcOneMOD/android_packages_apps_Bluetooth" revision="lp5.0" />
-  <project path="packages/apps/DeskClock" name="ErcOneMOD/android_packages_apps_DeskClock" revision="lp5.0" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DeviceControl" name="ErcOneMOD/android_packages_apps_DeviceControl" revision="lp5.0" />
   <project path="packages/apps/OmniSwitch" name="ErcOneMOD/android_packages_apps_OmniSwitch" revision="lp5.0" />
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-5.0" />
