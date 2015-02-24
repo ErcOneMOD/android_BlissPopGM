@@ -21,27 +21,39 @@
           fetch="https://github.com/CyanogenMod/" />
 
   <remote name="BlissPopGM"
-          fetch="https://github.com/BlissPopGM/" />
+          fetch="https://github.com/BlissPopGM/"
+          sync-c="true"
+          sync-j="8" />
 
   <remote name="TeamBliss-LP"
-          fetch="https://github.com/TeamBliss-LP/" />
+          fetch="https://github.com/TeamBliss-LP/" 
+          sync-c="true"
+          sync-j="8" />
 
   <remote name="TeamBliss-Devices"
-          fetch="https://github.com/TeamBliss-Devices/" />
+          fetch="https://github.com/TeamBliss-Devices/" 
+          sync-c="true"
+          sync-j="8" />
 
   <remote name="TeamBliss"
-          fetch="https://github.com/TeamBliss/" />
+          fetch="https://github.com/TeamBliss/" 
+          sync-c="true"
+          sync-j="8" />
 
   <remote name="TheMuppets"
-          fetch="https://github.com/TheMuppets/" />
+          fetch="https://github.com/TheMuppets/" 
+          sync-c="true"
+          sync-j="8" />
 
   <remote name="VanirAOSP"
-          fetch="https://github.com/VanirAOSP/" />
+          fetch="https://github.com/VanirAOSP/" 
+          sync-c="true"
+          sync-j="8" />
           
   <default revision="refs/heads/cm-12.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
 
   <!-- AOSP Repos -->
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
