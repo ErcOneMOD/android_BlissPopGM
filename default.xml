@@ -8,8 +8,7 @@
            sync-j="8" />
 
   <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
+           fetch=".." />
            
    <remote name="gh"
           fetch="https://github.com/" />
@@ -19,10 +18,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <remote name="cm"
+  <remote name="CyanogenMod"
           fetch="https://github.com/CyanogenMod/" />
 
   <remote name="BlissPopGM"
