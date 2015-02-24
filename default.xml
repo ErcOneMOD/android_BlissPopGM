@@ -524,31 +524,31 @@
   
   <!-- BlissPopGM Repos -->
   <project path="android" name="ErcOneMOD/android_BlissPopGM" revision="lp5.0" />
-  <project path="art" name="BlissPopGM/art" groups="pdk" revision="lp5.0" />
-  <project path="bionic" name="BlissPopGM/bionic" groups="pdk" revision="lp5.0" />
+  <project path="art" name="BlissPopGM/art" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="bionic" name="BlissPopGM/bionic" groups="pdk" remote="github" revision="lp5.0" />
   <project path="build" name="ErcOneMOD/build" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="external/jpeg" name="BlissPopGM/external_jpeg" groups="pdk" revision="lp5.0" />
-  <project path="external/skia" name="BlissPopGM/external_skia" groups="pdk-cw-fs,qcom_msm8x26" revision="lp5.0" />
-  <project path="frameworks/av" name="BlissPopGM/frameworks_av" groups="pdk" revision="lp5.0" />
-  <project path="frameworks/base" name="BlissPopGM/frameworks_base" revision="lp5.0" />
-  <project path="frameworks/native" name="BlissPopGM/frameworks_native" groups="pdk" revision="lp5.0" />
-  <project path="frameworks/opt/telephony" name="BlissPopGM/frameworks_opt_telephony" groups="pdk" revision="lp5.0" />
-  <project path="packages/apps/Dialer" name="BlissPopGM/packages_apps_Dialer" revision="lp5.0" />
+  <project path="external/jpeg" name="BlissPopGM/external_jpeg" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="external/skia" name="BlissPopGM/external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="lp5.0" />
+  <project path="frameworks/av" name="BlissPopGM/frameworks_av" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="frameworks/base" name="BlissPopGM/frameworks_base" remote="github" revision="lp5.0" />
+  <project path="frameworks/native" name="BlissPopGM/frameworks_native" remote="github" groups="pdk" revision="lp5.0" />
+  <project path="frameworks/opt/telephony" name="BlissPopGM/frameworks_opt_telephony" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="packages/apps/Dialer" name="BlissPopGM/packages_apps_Dialer" remote="github" revision="lp5.0" />
   <project path="packages/apps/InCallUI" name="BlissPopGM/packages_apps_InCallUI" revision="lp5.0" />
-  <project path="packages/apps/LockClock" name="BlissPopGM/packages_apps_LockClock" revision="lp5.0" />
-  <project path="packages/apps/Mms" name="BlissPopGM/packages_apps_Mms-caf" revision="lp5.0" />
-  <project path="packages/apps/Settings" name="BlissPopGM/packages_apps_Settings" revision="lp5.0" />
-  <project path="packages/apps/ThemeChooser" name="BlissPopGM/packages_apps_ThemeChooser" revision="lp5.0" />
-  <project path="packages/inputmethods/LatinIME" name="BlissPopGM/packages_inputmethods_LatinIME" revision="lp5.0" />
-  <project path="packages/providers/MediaProvider" name="BlissPopGM/packages_providers_MediaProvider" revision="lp5.0" />
-  <project path="packages/services/Telecomm" name="BlissPopGM/packages_services_Telecomm" revision="lp5.0" />
-  <project path="packages/services/Telephony" name="BlissPopGM/packages_services_Telephony" revision="lp5.0" />
-  <project path="packages/providers/ThemesProvider" name="BlissPopGM/packages_providers_ThemesProvider" revision="lp5.0" />
-  <project path="system/core" name="BlissPopGM/system_core" groups="pdk" revision="lp5.0" />
-  <project path="system/vold" name="BlissPopGM/system_vold" groups="pdk" revision="lp5.0" />
-  <project path="vendor/bliss" name="BlissPopGM/ErcOneMOD/vendor_bliss" revision="lp5.0" />
+  <project path="packages/apps/LockClock" name="BlissPopGM/packages_apps_LockClock" remote="github" revision="lp5.0" />
+  <project path="packages/apps/Mms" name="BlissPopGM/packages_apps_Mms-caf" remote="github" revision="lp5.0" />
+  <project path="packages/apps/Settings" name="BlissPopGM/packages_apps_Settings" remote="github" revision="lp5.0" />
+  <project path="packages/apps/ThemeChooser" name="BlissPopGM/packages_apps_ThemeChooser" remote="github" revision="lp5.0" />
+  <project path="packages/inputmethods/LatinIME" name="BlissPopGM/packages_inputmethods_LatinIME" remote="github" revision="lp5.0" />
+  <project path="packages/providers/MediaProvider" name="BlissPopGM/packages_providers_MediaProvider" remote="github" revision="lp5.0" />
+  <project path="packages/services/Telecomm" name="BlissPopGM/packages_services_Telecomm" remote="github" revision="lp5.0" />
+  <project path="packages/services/Telephony" name="BlissPopGM/packages_services_Telephony" remote="github" revision="lp5.0" />
+  <project path="packages/providers/ThemesProvider" name="BlissPopGM/packages_providers_ThemesProvider" remote="github" revision="lp5.0" />
+  <project path="system/core" name="BlissPopGM/system_core" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="system/vold" name="BlissPopGM/system_vold" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" />
   <!--project path="vendor/lge" name="proprietary_vendor_lge" revision="lp5.0" /--> 
 
   <!--Additional Repos-->
@@ -556,20 +556,20 @@
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
   
   <!-- CUSTOM ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="BlissPopGM/arm-linux-androideabi-4.8" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="BlissPopGM/arm-linux-androideabi-4.9" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="VanirAOSP/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" revision="L5" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="VanirAOSP/prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="BlissPopGM/arm-linux-androideabi-4.8" remote="github" revision="lp5.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="BlissPopGM/arm-linux-androideabi-4.9" remote="github" revision="lp5.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="VanirAOSP/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="github" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="VanirAOSP/prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="github" revision="L5" />
   
   <!-- CUSTOM KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="VanirAOSP/linaro_toolchains_2015" revision="L5" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="BlissPopGM/LINARO-OTTER" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="BlissPopGM/linaro-arm-eabi-4.8" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="BlissPopGM/linaro-arm-eabi-4.9" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="BlissPopGM/linaro-arm-eabi-4.10" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="BlissPopGM/arm-eabi-4.7" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="BlissPopGM/arm-eabi-4.8" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="BlissPopGM/arm-eabi-4.9" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="BlissPopGM/arm-eabi-4.10" revision="master" />  
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="VanirAOSP/linaro_toolchains_2015" remote="github" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="BlissPopGM/LINARO-OTTER" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="BlissPopGM/linaro-arm-eabi-4.8" remote="github" revision="lp5.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="BlissPopGM/linaro-arm-eabi-4.9" remote="github" revision="lp5.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="BlissPopGM/linaro-arm-eabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="BlissPopGM/arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="BlissPopGM/arm-eabi-4.8" remote="github" revision="lp5.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="BlissPopGM/arm-eabi-4.9" remote="github" revision="lp5.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="BlissPopGM/arm-eabi-4.10" remote="github" revision="master" />  
   
 </manifest>
