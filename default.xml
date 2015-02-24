@@ -559,7 +559,7 @@
   <project path="packages/providers/ThemesProvider" name="BlissPopGM/packages_providers_ThemesProvider" remote="github" revision="lp5.0" />
   <project path="system/core" name="BlissPopGM/system_core" groups="pdk" remote="github" revision="lp5.0" />
   <project path="system/vold" name="BlissPopGM/system_vold" groups="pdk" remote="github" revision="lp5.0" />
-  <project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" />
+  <!--project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" /-->
   <!--project path="vendor/lge" name="proprietary_vendor_lge" revision="lp5.0" /--> 
 
   <!--Additional Repos-->
