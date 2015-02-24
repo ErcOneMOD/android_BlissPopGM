@@ -513,16 +513,17 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
 
   <!--TeamBliss repos -->
   <project path="frameworks/webview" name="TeamBliss-LP/android_frameworks_webview" remote="github" revision="lp5.0" />
   <project path="packages/apps/AudioFX" name="TeamBliss-LP/android_packages_apps_AudioFX" remote="github" revision="lp5.0" />
-  <project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" />
+  <!--project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" /-->
   <project path="packages/apps/Bluetooth" name="TeamBliss-LP/android_packages_apps_Bluetooth" remote="github" revision="lp5.0" />
   <project path="packages/apps/DeskClock" name="TeamBliss-LP/android_packages_apps_DeskClock" remote="github" revision="lp5.0" />
-  <!-- <project path="packages/apps/DeviceControl" name="TeamBliss-LP/android_packages_apps_DeviceControl" revision="lp5.0" /> -->
+  <project path="packages/apps/DeviceControl" name="TeamBliss-LP/android_packages_apps_DeviceControl" revision="lp5.0" />
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" revision="lp5.0" />
-  <!-- <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-5.0" /> -->
+  <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-5.0" />
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />
   <!-- <project path="packages/themes/DeepDarkness" name="TeamBliss-LP/android_packages_themes_DeepDarkness" revision="lp5.0" /> -->
   
