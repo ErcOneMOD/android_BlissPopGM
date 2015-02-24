@@ -38,7 +38,7 @@
   <remote name="tm"
           fetch="https://github.com/TheMuppets/" />
 
-  <remote name="vr"
+  <remote name="VanirAOSP"
           fetch="https://github.com/VanirAOSP/" />
           
   <default revision="refs/heads/cm-12.0"
