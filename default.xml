@@ -526,7 +526,7 @@
   <!--<project path="packages/apps/AudioFX" name="ErcOneMOD/android_packages_apps_AudioFX" revision="lp5.0" />-->
   <!--project path="packages/apps/BlissPapers" name="ErcOneMOD/android_packages_apps_BlissPapers" revision="lp5.0" /-->
   <project path="packages/apps/Bluetooth" name="ErcOneMOD/android_packages_apps_Bluetooth" revision="lp5.0" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" revision="lp5.0" />
+  <project path="external/bluetooth/bluedroid" name="ErcOneMOD/external_bluetooth_bluedroid" groups="pdk" revision="lp5.0" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DeviceControl" name="ErcOneMOD/android_packages_apps_DeviceControl" revision="lp5.0" />
   <project path="packages/apps/OmniSwitch" name="ErcOneMOD/android_packages_apps_OmniSwitch" revision="lp5.0" />
