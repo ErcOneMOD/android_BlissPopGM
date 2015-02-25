@@ -291,8 +291,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
@@ -302,7 +300,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
   <!-- CyanogenMod Repos -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
