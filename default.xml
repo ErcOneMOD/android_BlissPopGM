@@ -572,15 +572,15 @@
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
   
   <!-- CUSTOM ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ErcOneMOD/arm-linux-androideabi-4.8" revision="lp5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ErcOneMOD/arm-linux-androideabi-4.9" revision="lp5.0" />
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Team-Validus/arm-linux-androideabi-4.8" remote="github" revision="lp" />-->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="github" revision="lp" />-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="ErcOneMOD/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" revision="L5" />-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="ErcOneMOD/prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" revision="L5" />-->
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ErcOneMOD/arm-linux-androideabi-4.8" revision="lp5.0" />-->
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ErcOneMOD/arm-linux-androideabi-4.9" revision="lp5.0" />-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Team-Validus/arm-linux-androideabi-4.8" remote="github" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="github" revision="lp" />
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="ErcOneMOD/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" revision="L5" />-->
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="ErcOneMOD/prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" revision="L5" />-->
   
   <!-- CUSTOM KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="ErcOneMOD/linaro_toolchains_2015" revision="L5" />
+ <!--<project path="prebuilts/gcc/linux-x86/arm/linaro" name="ErcOneMOD/linaro_toolchains_2015" revision="L5" />-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="Team-Validus/LINARO-OTTER" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="Team-Validus/linaro-arm-eabi-4.8" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="Team-Validus/linaro-arm-eabi-4.9" remote="github" revision="master" />
