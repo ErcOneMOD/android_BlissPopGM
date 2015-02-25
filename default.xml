@@ -18,7 +18,7 @@
    <remote name="ErcOneMOD"
            fetch="https://github.com/ErcOneMOD/"
            sync-c="true"
-           sync-j="16" />
+           sync-j="8" />
 
   <remote name="CyanogenMod"
           fetch="https://github.com/CyanogenMod/" />
