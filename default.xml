@@ -6,7 +6,7 @@
            review="android-review.googlesource.com" 
            revision="refs/tags/android-5.0.2_r1" 
            sync-c="true"
-           sync-j="8" />
+           sync-j="4" />
   
   <remote name="bitbucket"
           fetch="https://bitbucket.org/"/>  
