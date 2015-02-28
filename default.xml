@@ -21,7 +21,9 @@
            sync-j="8" />
 
   <remote name="CyanogenMod"
-          fetch="https://github.com/CyanogenMod/" />
+          fetch="https://github.com/CyanogenMod/" 
+          sync-c="true"
+          sync-j="8" />
 
   <remote name="BlissPopGM"
           fetch="https://github.com/BlissPopGM/"
