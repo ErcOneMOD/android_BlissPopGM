@@ -6,10 +6,7 @@
            review="android-review.googlesource.com" 
            revision="refs/tags/android-5.0.2_r1" 
            sync-c="true"
-           sync-j="4" />
-  
-  <remote name="bitbucket"
-          fetch="https://bitbucket.org/"/>  
+           sync-j="8" />
   
   <remote  name="github"
            fetch=".."
@@ -325,9 +322,9 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
+  <project path="device/google/atv" name="device/google/atv" groups="device,fugu" remote="aosp" />
+  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   
   <!-- CyanogenMod Repos -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
