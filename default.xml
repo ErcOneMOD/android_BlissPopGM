@@ -123,7 +123,6 @@
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" />
@@ -510,7 +509,6 @@
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />  
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
@@ -523,6 +521,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/webview" name="ErcOneMOD/android_frameworks_webview" revision="lp5.0" />
+  <project path="system/extras" name="ErcOneMOD/android_system_extras" groups="pdk" revision="cm-12.0" />
+  <project path="external/f2fs-tools" name="ErcOneMOD/android_external_f2fs-tools" groups="pdk" revision="cm-12.0" />
   <!--<project path="packages/apps/AudioFX" name="ErcOneMOD/android_packages_apps_AudioFX" revision="lp5.0" />-->
   <!--project path="packages/apps/BlissPapers" name="ErcOneMOD/android_packages_apps_BlissPapers" revision="lp5.0" /-->
   <project path="packages/apps/Bluetooth" name="ErcOneMOD/android_packages_apps_Bluetooth" revision="lp5.0" />
