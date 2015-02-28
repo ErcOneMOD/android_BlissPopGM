@@ -7,15 +7,18 @@
            revision="refs/tags/android-5.0.2_r1" 
            sync-c="true"
            sync-j="8" />
-           
-   <remote  name="github"
+  
+  <remote name="bitbucket"
+          fetch="https://bitbucket.org/"/>  
+  
+  <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
            
-   <remote name="ErcOneMOD"
+  <remote name="ErcOneMOD"
            fetch="https://github.com/ErcOneMOD/"
            sync-c="true"
            sync-j="8" />
