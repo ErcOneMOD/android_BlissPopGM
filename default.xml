@@ -510,6 +510,7 @@
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />  
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
@@ -567,7 +568,7 @@
   <!--Additional Repos-->
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" remote="github" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" groups="pdk" remote="github" revision="lp5.0" />
+  
   
   <!-- CUSTOM ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ErcOneMOD/arm-linux-androideabi-4.8" revision="lp5.0" />
