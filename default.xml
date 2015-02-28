@@ -565,8 +565,8 @@
   <project name="bauner/cm-android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" name="ErcOneMOD/x86_64-linux-glibc-2.20-4.8" groups="pdk,linux" revision="master" />
   <!--project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" /-->
-  <project path="system/core" name="ErcOneMOD/system_core" groups="pdk" revision="cm-12.0" />
-  <project path="system/vold" name="ErcOneMOD/system_vold" groups="pdk" revision="cm-12.0" />
+  <project path="system/core" name="ErcOneMOD/android_system_core" groups="pdk" revision="cm-12.0" />
+  <project path="system/vold" name="ErcOneMOD/android_system_vold" groups="pdk" revision="cm-12.0" />
   <project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" />
   
   <!-- BlissPopGM Repos -->
