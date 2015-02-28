@@ -568,11 +568,11 @@
   <project path="system/core" name="ErcOneMOD/system_core" groups="pdk" revision="lp5.0" />
   <project path="system/vold" name="ErcOneMOD/system_vold" groups="pdk" revision="lp5.0" />
   <project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" />
+  <project path="bionic" name="ErcOneMOD/bionic" groups="pdk" revision="lp5.0" />
   
   <!-- BlissPopGM Repos -->
   
   <project path="art" name="BlissPopGM/art" groups="pdk" remote="github" revision="lp5.0" />
-  <project path="bionic" name="BlissPopGM/bionic" groups="pdk" remote="github" revision="lp5.0" />
   <project path="external/jpeg" name="BlissPopGM/external_jpeg" groups="pdk" remote="github" revision="lp5.0" />
   <project path="external/skia" name="BlissPopGM/external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="lp5.0" />
   <project path="frameworks/av" name="BlissPopGM/frameworks_av" groups="pdk" remote="github" revision="lp5.0" />
