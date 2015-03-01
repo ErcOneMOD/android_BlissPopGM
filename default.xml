@@ -567,7 +567,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/webview" name="ErcOneMOD/android_frameworks_webview" revision="lp5.0" />
-  <project path="system/extras" name="ErcOneMOD/android_system_extras" groups="pdk" revision="cm-12.0" />
+  <project path="system/extras" name="ErcOneMOD/system_extras" groups="pdk" revision="lollipop" />
   <project path="external/f2fs-tools" name="ErcOneMOD/android_external_f2fs-tools" groups="pdk" revision="cm-12.0" />
   <!--<project path="packages/apps/AudioFX" name="ErcOneMOD/android_packages_apps_AudioFX" revision="lp5.0" />-->
   <!--project path="packages/apps/BlissPapers" name="ErcOneMOD/android_packages_apps_BlissPapers" revision="lp5.0" /-->
