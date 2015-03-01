@@ -563,7 +563,7 @@
 
  <!-- ErcOneMOD -->
  <project path="android" name="ErcOneMOD/android_BlissPopGM" revision="lp5.0" />
- <project path="build" name="ErcOneMOD/build" revision="lp5.0" >
+ <project path="build" name="BlissPopGM//build" revision="lp5.0" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/webview" name="ErcOneMOD/android_frameworks_webview" revision="lp5.0" />
