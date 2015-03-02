@@ -593,8 +593,8 @@
   <project path="libcore" name="ErcOneMOD/libcore" revision="lp5.0"/>
   <project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" />
   <project path="bionic" name="ErcOneMOD/bionic" groups="pdk" revision="lp5.0" />
-  <project path="art" name="BlissPopGM/art" groups="pdk" remote="github" revision="lp5.0" />
-  <!--project path="art" name="ErcOneMOD/art" groups="pdk" revision="lp5.0" /-->
+  <!--project path="art" name="BlissPopGM/art" groups="pdk" remote="github" revision="lp5.0" /-->
+  <project path="art" name="ErcOneMOD/art" groups="pdk" revision="lp5.0" />
   
   <!-- BlissPopGM Repos -->
   
