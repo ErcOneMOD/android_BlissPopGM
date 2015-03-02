@@ -581,11 +581,11 @@
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
   <project name="bauner/cm-android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" name="ErcOneMOD/x86_64-linux-glibc-2.20-4.8" groups="pdk,linux" revision="master" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <!--project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" /-->
+  <!--project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" /-->
   <!--project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" /-->
-  <!--project path="system/core" name="ErcOneMOD/system_core" groups="pdk" revision="lp5.0" /-->
-  <!--project path="system/vold" name="ErcOneMOD/system_vold" groups="pdk" revision="lp5.0" /-->
+  <project path="system/core" name="ErcOneMOD/system_core" groups="pdk" revision="lp5.0" />
+  <project path="system/vold" name="ErcOneMOD/system_vold" groups="pdk" revision="lp5.0" />
   <project path="external/dnsmasq" name="ErcOneMOD/external_dnsmasq" groups="pdk" revision="lp5.0" />
   <project path="external/stlport" name="ErcOneMOD/external_stlport" groups="pdk" revision="lp5.0" />
   <project path="libcore" name="ErcOneMOD/libcore" revision="lp5.0"/>
