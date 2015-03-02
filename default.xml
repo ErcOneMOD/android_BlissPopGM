@@ -231,7 +231,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
@@ -368,7 +367,6 @@
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
@@ -512,7 +510,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
+
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
@@ -588,6 +586,9 @@
   <!--project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" /-->
   <!--project path="system/core" name="ErcOneMOD/system_core" groups="pdk" revision="lp5.0" /-->
   <!--project path="system/vold" name="ErcOneMOD/system_vold" groups="pdk" revision="lp5.0" /-->
+  <project path="external/dnsmasq" name="ErcOneMOD/external_dnsmasq" groups="pdk" revision="lp5.0" />
+  <project path="external/stlport" name="ErcOneMOD/external_stlport" groups="pdk" revision="lp5.0" />
+  <project path="libcore" name="ErcOneMOD/libcore" revision="lp5.0"/>
   <project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" />
   <project path="bionic" name="ErcOneMOD/bionic" groups="pdk" revision="lp5.0" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
