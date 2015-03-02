@@ -567,7 +567,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/webview" name="ErcOneMOD/android_frameworks_webview" revision="lp5.0" />
-  <project path="system/extras" name="ErcOneMOD/system_extras" groups="pdk" revision="lollipop" />
+  <project path="system/extras" name="ErcOneMOD/android_system_extras" groups="pdk" revision="cm-12.0" />
   <project path="external/f2fs-tools" name="ErcOneMOD/android_external_f2fs-tools" groups="pdk" revision="cm-12.0" />
   <!--<project path="packages/apps/AudioFX" name="ErcOneMOD/android_packages_apps_AudioFX" revision="lp5.0" />-->
   <!--project path="packages/apps/BlissPapers" name="ErcOneMOD/android_packages_apps_BlissPapers" revision="lp5.0" /-->
@@ -588,7 +588,8 @@
   <project path="system/vold" name="ErcOneMOD/system_vold" groups="pdk" revision="lp5.0" />
   <project path="vendor/bliss" name="ErcOneMOD/vendor_bliss" revision="lp5.0" />
   <project path="bionic" name="ErcOneMOD/bionic" groups="pdk" revision="lp5.0" />
-  <project path="art" name="ErcOneMOD/art" groups="pdk" revision="lp5.0" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
+  <!--project path="art" name="ErcOneMOD/art" groups="pdk" revision="lp5.0" /-->
   
   <!-- BlissPopGM Repos -->
   
