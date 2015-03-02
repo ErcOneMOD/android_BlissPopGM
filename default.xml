@@ -565,6 +565,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/webview" name="ErcOneMOD/android_frameworks_webview" revision="lp5.0" />
+  <project path="frameworks/base" name="ErcOneMOD/frameworks_base" revision="lp5.0" />
+  <project path="packages/apps/Settings" name="ErcOneMODErcOneMOD/packages_apps_Settings" revision="lp5.0" />
   <project path="system/extras" name="ErcOneMOD/android_system_extras" groups="pdk" revision="cm-12.0" />
   <project path="external/f2fs-tools" name="ErcOneMOD/android_external_f2fs-tools" groups="pdk" revision="cm-12.0" />
   <!--<project path="packages/apps/AudioFX" name="ErcOneMOD/android_packages_apps_AudioFX" revision="lp5.0" />-->
@@ -600,14 +602,12 @@
   <project path="external/jpeg" name="BlissPopGM/external_jpeg" groups="pdk" remote="github" revision="lp5.0" />
   <project path="external/skia" name="BlissPopGM/external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="lp5.0" />
   <project path="frameworks/av" name="BlissPopGM/frameworks_av" groups="pdk" remote="github" revision="lp5.0" />
-  <project path="frameworks/base" name="BlissPopGM/frameworks_base" remote="github" revision="lp5.0" />
   <project path="frameworks/native" name="BlissPopGM/frameworks_native" remote="github" groups="pdk" revision="lp5.0" />
   <project path="frameworks/opt/telephony" name="BlissPopGM/frameworks_opt_telephony" groups="pdk" remote="github" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="BlissPopGM/packages_apps_Dialer" remote="github" revision="lp5.0" />
   <project path="packages/apps/InCallUI" name="BlissPopGM/packages_apps_InCallUI" revision="lp5.0" />
   <project path="packages/apps/LockClock" name="BlissPopGM/packages_apps_LockClock" remote="github" revision="lp5.0" />
   <project path="packages/apps/Mms" name="BlissPopGM/packages_apps_Mms-caf" remote="github" revision="lp5.0" />
-  <project path="packages/apps/Settings" name="BlissPopGM/packages_apps_Settings" remote="github" revision="lp5.0" />
   <project path="packages/apps/ThemeChooser" name="BlissPopGM/packages_apps_ThemeChooser" remote="github" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="BlissPopGM/packages_inputmethods_LatinIME" remote="github" revision="lp5.0" />
   <project path="packages/providers/MediaProvider" name="BlissPopGM/packages_providers_MediaProvider" remote="github" revision="lp5.0" />
